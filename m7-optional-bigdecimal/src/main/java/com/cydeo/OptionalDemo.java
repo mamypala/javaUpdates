@@ -1,5 +1,7 @@
 package com.cydeo;
 
+import com.cydeo.java9.FactoryMethodsDemo;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -29,6 +31,18 @@ public class OptionalDemo {
 
         // .orElse
         System.out.println(bigNumber.orElse(5));
+
+        System.out.println("----------------");
+        System.out.println("Module Demo (module created to access module-8 !)");
+
+        FactoryMethodsDemo moduleDemo = new FactoryMethodsDemo();
+//      FactoryMethodsDemo class is under module8-->java9 package
+//      access to java9 package is given by module-info.java class! (export - require)
+
+//        ModuleExample moduleExample = new ModuleExample;
+//        ModuleExample class is under module8-->java10 package
+//        access to java10 package is not given only java9 given
+
 
 
     }
