@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>m8-new_version_updates</artifactId>
+    <artifactId>new_version_updates</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
