@@ -16,7 +16,7 @@
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>new_version_updates</artifactId>
+            <artifactId>m8-new_version_updates</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
