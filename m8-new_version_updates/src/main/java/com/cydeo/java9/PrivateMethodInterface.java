@@ -11,7 +11,7 @@ public interface PrivateMethodInterface {
         return !isHoliday(date);
     }
     default LocalDate nextDate(LocalDate date){
-       validate(date);
+        validate(date);
         LocalDate nextDate = date.plusDays(1);
         return isHoliday(nextDate) ? nextDate(nextDate) : nextDate;
     }
